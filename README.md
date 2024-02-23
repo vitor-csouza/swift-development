@@ -1,2 +1,2 @@
 # swift-development
-Disciplina de Desenvolvimento IO com Swift
+Disciplina de Desenvolvimento IOS com Swift
