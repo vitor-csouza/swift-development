@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC7A15292B969E8600455307 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A15282B969E8600455307 /* main.swift */; };
-		AC7A15302B969F5900455307 /* Atleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A152F2B969F5900455307 /* Atleta.swift */; };
-		AC7A15322B96A77B00455307 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A15312B96A77B00455307 /* Pessoa.swift */; };
+		AC048EC22B9FDB9D005D433C /* Paratleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC048EC12B9FDB9D005D433C /* Paratleta.swift */; };
+		AC34261A2B969EC000216076 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3426192B969EC000216076 /* main.swift */; };
+		AC3426212B969F4D00216076 /* Atleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3426202B969F4D00216076 /* Atleta.swift */; };
+		AC3426232B96A77100216076 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3426222B96A77100216076 /* Pessoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AC7A15232B969E8600455307 /* CopyFiles */ = {
+		AC3426142B969EBF00216076 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AC7A15252B969E8600455307 /* Exemplo Classe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exemplo Classe"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC7A15282B969E8600455307 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AC7A152F2B969F5900455307 /* Atleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atleta.swift; sourceTree = "<group>"; };
-		AC7A15312B96A77B00455307 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		AC048EC12B9FDB9D005D433C /* Paratleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paratleta.swift; sourceTree = "<group>"; };
+		AC3426162B969EBF00216076 /* Exemplo Classe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exemplo Classe"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3426192B969EC000216076 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC3426202B969F4D00216076 /* Atleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atleta.swift; sourceTree = "<group>"; };
+		AC3426222B96A77100216076 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC7A15222B969E8600455307 /* Frameworks */ = {
+		AC3426132B969EBF00216076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,28 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC7A151C2B969E8600455307 = {
+		AC34260D2B969EBF00216076 = {
 			isa = PBXGroup;
 			children = (
-				AC7A15272B969E8600455307 /* Exemplo Classe */,
-				AC7A15262B969E8600455307 /* Products */,
+				AC3426182B969EBF00216076 /* Exemplo Classe */,
+				AC3426172B969EBF00216076 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC7A15262B969E8600455307 /* Products */ = {
+		AC3426172B969EBF00216076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC7A15252B969E8600455307 /* Exemplo Classe */,
+				AC3426162B969EBF00216076 /* Exemplo Classe */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC7A15272B969E8600455307 /* Exemplo Classe */ = {
+		AC3426182B969EBF00216076 /* Exemplo Classe */ = {
 			isa = PBXGroup;
 			children = (
-				AC7A15282B969E8600455307 /* main.swift */,
-				AC7A152F2B969F5900455307 /* Atleta.swift */,
-				AC7A15312B96A77B00455307 /* Pessoa.swift */,
+				AC048EC12B9FDB9D005D433C /* Paratleta.swift */,
+				AC3426192B969EC000216076 /* main.swift */,
+				AC3426202B969F4D00216076 /* Atleta.swift */,
+				AC3426222B96A77100216076 /* Pessoa.swift */,
 			);
 			path = "Exemplo Classe";
 			sourceTree = "<group>";
@@ -71,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC7A15242B969E8600455307 /* Exemplo Classe */ = {
+		AC3426152B969EBF00216076 /* Exemplo Classe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC7A152C2B969E8600455307 /* Build configuration list for PBXNativeTarget "Exemplo Classe" */;
+			buildConfigurationList = AC34261D2B969EC000216076 /* Build configuration list for PBXNativeTarget "Exemplo Classe" */;
 			buildPhases = (
-				AC7A15212B969E8600455307 /* Sources */,
-				AC7A15222B969E8600455307 /* Frameworks */,
-				AC7A15232B969E8600455307 /* CopyFiles */,
+				AC3426122B969EBF00216076 /* Sources */,
+				AC3426132B969EBF00216076 /* Frameworks */,
+				AC3426142B969EBF00216076 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -85,25 +88,25 @@
 			);
 			name = "Exemplo Classe";
 			productName = "Exemplo Classe";
-			productReference = AC7A15252B969E8600455307 /* Exemplo Classe */;
+			productReference = AC3426162B969EBF00216076 /* Exemplo Classe */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC7A151D2B969E8600455307 /* Project object */ = {
+		AC34260E2B969EBF00216076 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					AC7A15242B969E8600455307 = {
+					AC3426152B969EBF00216076 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = AC7A15202B969E8600455307 /* Build configuration list for PBXProject "Exemplo Classe" */;
+			buildConfigurationList = AC3426112B969EBF00216076 /* Build configuration list for PBXProject "Exemplo Classe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,31 +114,32 @@
 				en,
 				Base,
 			);
-			mainGroup = AC7A151C2B969E8600455307;
-			productRefGroup = AC7A15262B969E8600455307 /* Products */;
+			mainGroup = AC34260D2B969EBF00216076;
+			productRefGroup = AC3426172B969EBF00216076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC7A15242B969E8600455307 /* Exemplo Classe */,
+				AC3426152B969EBF00216076 /* Exemplo Classe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC7A15212B969E8600455307 /* Sources */ = {
+		AC3426122B969EBF00216076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7A15302B969F5900455307 /* Atleta.swift in Sources */,
-				AC7A15322B96A77B00455307 /* Pessoa.swift in Sources */,
-				AC7A15292B969E8600455307 /* main.swift in Sources */,
+				AC048EC22B9FDB9D005D433C /* Paratleta.swift in Sources */,
+				AC3426212B969F4D00216076 /* Atleta.swift in Sources */,
+				AC3426232B96A77100216076 /* Pessoa.swift in Sources */,
+				AC34261A2B969EC000216076 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AC7A152A2B969E8600455307 /* Debug */ = {
+		AC34261B2B969EC000216076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		AC7A152B2B969E8600455307 /* Release */ = {
+		AC34261C2B969EC000216076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +252,7 @@
 			};
 			name = Release;
 		};
-		AC7A152D2B969E8600455307 /* Debug */ = {
+		AC34261E2B969EC000216076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		AC7A152E2B969E8600455307 /* Release */ = {
+		AC34261F2B969EC000216076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -269,25 +273,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC7A15202B969E8600455307 /* Build configuration list for PBXProject "Exemplo Classe" */ = {
+		AC3426112B969EBF00216076 /* Build configuration list for PBXProject "Exemplo Classe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC7A152A2B969E8600455307 /* Debug */,
-				AC7A152B2B969E8600455307 /* Release */,
+				AC34261B2B969EC000216076 /* Debug */,
+				AC34261C2B969EC000216076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC7A152C2B969E8600455307 /* Build configuration list for PBXNativeTarget "Exemplo Classe" */ = {
+		AC34261D2B969EC000216076 /* Build configuration list for PBXNativeTarget "Exemplo Classe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC7A152D2B969E8600455307 /* Debug */,
-				AC7A152E2B969E8600455307 /* Release */,
+				AC34261E2B969EC000216076 /* Debug */,
+				AC34261F2B969EC000216076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC7A151D2B969E8600455307 /* Project object */;
+	rootObject = AC34260E2B969EBF00216076 /* Project object */;
 }

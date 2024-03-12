@@ -8,18 +8,17 @@
 import Cocoa
 
 class Pessoa: NSObject {
-    
     var nome:String
     var cidade:String
     
-    init(nome: String, cidade: String) {
+    init(nome:String, cidade:String){
         self.nome = nome
         self.cidade = cidade
-        print("\(self.nome) foi inicializado")
+        print("\(self.nome) está sendo inicializado")
     }
     
     deinit{
-        print("\(self.nome) foi desinicializado")
+        print("\(self.nome) está sendo desinicializado")
     }
 
 }
